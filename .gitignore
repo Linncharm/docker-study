@@ -1,0 +1,51 @@
+# Docker 相关
+.dockerignore
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志
+*.log
+logs/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 个人笔记（可选，如果不想提交个人笔记）
+# notes/
+
+# 实践项目产生的数据
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/dist/
+**/build/
+**/.pytest_cache/
+**/.coverage
+
+# Docker 数据卷数据（本地测试产生）
+**/data/
+**/mysql-data/
+**/postgres-data/
+**/redis-data/
+
+# 备份文件
+*.bak
+*.backup
+backup/
